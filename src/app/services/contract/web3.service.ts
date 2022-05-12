@@ -28,7 +28,7 @@ export class Web3Service {
       walletconnect: {
         package: WalletConnectProvider, // required
         options: {
-          infuraId: 'env', // required change this with your own infura id
+          infuraId: 'env', // change this to GALA infuraID
           description: 'Scan the qr code and sign in',
           qrcodeModalOptions: {
             mobileLinks: [
